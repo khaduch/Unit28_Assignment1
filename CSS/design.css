@@ -18,8 +18,8 @@ header.masthead {
     background: url(../images/header.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover;
     -o-background-size: cover;
+    background-size: cover;
     padding-top: 8rem;
     padding-bottom: 8rem;
 }
