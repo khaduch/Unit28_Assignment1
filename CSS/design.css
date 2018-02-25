@@ -13,8 +13,7 @@ h6 {
 }
 
 header.masthead {
-    position: relative;
-    background-color: #343a40;
+    color: #fff;
     background: url(../images/header.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
