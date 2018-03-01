@@ -231,3 +231,7 @@ nav ul li a:hover {
 .scrolled-nav h3 a {
     font-size: 1rem;
 }
+
+.bg-white {
+    background-color: #fff;
+}
