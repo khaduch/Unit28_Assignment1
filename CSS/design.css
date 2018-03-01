@@ -39,17 +39,16 @@ p {
 }
 
 .masthead h1 {
-    font-size: 3rem;
     margin: 0;
     padding: 0
 }
 
 @media (min-width:992px) {
     .masthead {
-        height: 100vh
+        height: 100vh;
     }
     .masthead h1 {
-        font-size: 3.5rem
+        font-size: 3rem
     }
 }
 
@@ -188,7 +187,7 @@ nav h3 {
 nav h3 a {
     display: inline-block;
     /* margin-left: 0.33rem; */
-    color: #157ffb;
+    color: #FFFFFF;
     font-family: 'Kaushan Script', Helvetica, Arial, cursive;
     font-size: 1.75rem;
     text-decoration: none;
@@ -220,7 +219,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #fed136;
+    color: #FFFFFF;
+    text-decoration: underline;
 }
 
 .scrolled-nav {
