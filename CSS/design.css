@@ -168,21 +168,6 @@ Small devices (landscape phones, 576px and up)*/
     }
 }
 
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat');
-html {
-    height: 1200px;
-    font-size: 16px;
-}
-
-body {
-    height: 100%;
-    background: url("https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg") no-repeat center top / cover;
-}
-
-body * {
-    /* border: 1px solid; */
-}
-
 nav {
     position: fixed;
     top: 0;
