@@ -188,7 +188,7 @@ nav h3 {
 nav h3 a {
     display: inline-block;
     /* margin-left: 0.33rem; */
-    color: #fed136;
+    color: #157ffb;
     font-family: 'Kaushan Script', Helvetica, Arial, cursive;
     font-size: 1.75rem;
     text-decoration: none;
@@ -198,6 +198,7 @@ nav h3 a {
 nav ul {
     flex: 1;
     display: flex;
+    z-index: 1000;
     justify-content: center;
 }
 
@@ -224,6 +225,7 @@ nav ul li a:hover {
 
 .scrolled-nav {
     background-color: #212529;
+    z-index: 1000;
 }
 
 .scrolled-nav h3 a {

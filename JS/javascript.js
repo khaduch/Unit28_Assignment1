@@ -11,7 +11,7 @@ window.addEventListener('scroll', () => {
 
     if (scrollY < 100) {
         nav.classList.remove('scrolled-nav');
-    } else if (scrollY >= 100 && scrollY < 200) {
+    } else {
         nav.classList.add('scrolled-nav');
     }
 });
