@@ -179,14 +179,13 @@ nav * {
     padding: 0;
 }
 
-nav h3 {
+nav .logo {
     flex: 1;
     text-align: center;
 }
 
-nav h3 a {
+nav .logo a {
     display: inline-block;
-    /* margin-left: 0.33rem; */
     color: #FFFFFF;
     font-family: 'Kaushan Script', Helvetica, Arial, cursive;
     font-size: 1.75rem;
@@ -203,7 +202,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin: 0.5rem;
+    margin: auto 0.5rem auto 0.5rem;
 }
 
 nav ul li:last-child {
@@ -228,7 +227,7 @@ nav ul li a:hover {
     z-index: 1000;
 }
 
-.scrolled-nav h3 a {
+.scrolled-nav .logo a {
     font-size: 1rem;
 }
 
