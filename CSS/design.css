@@ -4,7 +4,8 @@ html {
 }
 
 body {
-    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-family: Open Sans', 'Helvetica Neue', Arial, sans-serif;
+
 }
 
 h1 {
@@ -84,7 +85,7 @@ p {
 
 .testimonials .testimonial-item img {
     max-width: 12rem;
-    box-shadow: 0 5px 5px 0 #adb5bd
+    box-shadow: 0 5px 5px 0 #fff;
 }
 
 footer.footer {
@@ -186,7 +187,7 @@ nav .logo {
 
 nav .logo a {
     display: inline-block;
-    color: #FFFFFF;
+    color: #000;
     font-family: 'Kaushan Script', Helvetica, Arial, cursive;
     font-size: 1.75rem;
     text-decoration: none;
@@ -218,12 +219,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #FFFFFF;
+    color: #000;
     text-decoration: underline;
 }
 
 .scrolled-nav {
-    background-color: #212529;
+    background-color: #FFFFFF;
     z-index: 1000;
 }
 
@@ -233,4 +234,54 @@ nav ul li a:hover {
 
 .bg-white {
     background-color: #fff;
+}
+
+
+/*==================================
+=           Media queries          =
+==================================*/
+
+
+/* about */
+
+.parallax {
+    /* The image used */
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(40, 48, 72, 0.6)), to(rgba(133, 147, 152, 0.6))), url(../images/world.jpeg);
+    background: linear-gradient(to bottom, rgba(40, 48, 72, 0.6), rgba(133, 147, 152, 0.6)), url(../images/world.jpeg);
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 575px) {
+    .parallax {
+        height: 140%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .parallax {
+        height: 140%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .parallax {
+        height: 155%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .parallax {
+        height: 90%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .parallax {
+        height: 90%;
+    }
 }
