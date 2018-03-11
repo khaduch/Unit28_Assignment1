@@ -13,8 +13,7 @@ h1 {
     text-transform: uppercase;
 }
 
-h2,
-{
+h2 {
     font-weight: 700;
     text-transform: uppercase;
     margin-top: 0;
@@ -33,7 +32,7 @@ p {
     height: auto;
     padding-top: 8rem;
     padding-bottom: 8rem;
-    background: url(../images/header.jpg);
+    background: url(../images/header1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -161,75 +160,6 @@ Small devices (landscape phones, 576px and up)*/
     .maintxt {
         max-width: ;
     }
-}
-
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1rem 0;
-    width: 100%;
-    transition: background-color 100ms linear;
-}
-
-nav * {
-    margin: 0;
-    padding: 0;
-}
-
-nav .logo {
-    flex: 1;
-    text-align: center;
-}
-
-nav .logo a {
-    display: inline-block;
-    color: #000;
-    font-family: 'Kaushan Script', Helvetica, Arial, cursive;
-    font-size: 1.75rem;
-    text-decoration: none;
-    transition: font-size 200ms linear;
-}
-
-nav ul {
-    flex: 1;
-    display: flex;
-    z-index: 1000;
-    justify-content: center;
-}
-
-nav ul li {
-    display: inline-block;
-    margin: auto 0.5rem auto 0.5rem;
-}
-
-nav ul li:last-child {
-    margin-right: 4rem;
-}
-
-nav ul li a {
-    color: white;
-    font-family: Montserrat, Helvetica, Arial, sans-serif;
-    font-size: 0.9rem;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-nav ul li a:hover {
-    color: #000;
-    text-decoration: underline;
-}
-
-.scrolled-nav {
-    background-color: #FFFFFF;
-    z-index: 1000;
-}
-
-.scrolled-nav .logo a {
-    font-size: 1rem;
 }
 
 .bg-white {
